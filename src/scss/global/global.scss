@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Muli', sans-serif;
+  color: #4A4A4A;
+
+  // overflow: hidden;
+  .forme {
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    left: 0;
+  }
+}
+
+.all_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  // border: 1px solid red;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .all_container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+}

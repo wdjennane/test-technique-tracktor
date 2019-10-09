@@ -1,0 +1,39 @@
+.vehicles {
+  display: flex;
+  flex-direction: column;
+  // display: none;
+
+  .vehicles_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    // background-image: url('/asset/vehicles.jpg');
+
+    .vehicles_big {
+      display: none;
+    }
+  }
+
+  .logo_assurance_mobile {
+    width: 110px;
+    height: 50px;
+    align-self: flex-end;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vehicles {
+    justify-content: center;
+    flex-direction: row;
+
+    .vehicles_image {
+      display: none;
+    }
+
+    .logo_assurance_mobile {
+      display: none;
+    }
+  }
+
+}

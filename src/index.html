@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <title>test technique tracktor</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./asset/Logo sans fond.png" alt="logo" />
+      <img
+        class="offre_special"
+        src="./asset/offre-speciale.png"
+        alt="offre-speciale"
+      />
+      <div class="button_header">
+        <img class="phone" src="./asset/icones/phone_header.svg" alt="phone" />
+        <img class="menu" src="./asset/icones/burger_menu.png" alt="menu" />
+        <img
+          class="phone_number"
+          src="./asset/numero_vert.png"
+          alt="numero_vert"
+        />
+      </div>
+    </header>
+    <section class="all_container">
+      <section class="hero">
+        <h1 class="hero_title">
+          Inscrivez-vous et <b>bénéficiez de 50€ de crédit</b> pour votre
+          première location
+        </h1>
+        <div class="informations">
+          <div class="logo_container">
+            <img
+              class="information_logo"
+              src="./asset/icones/grue.svg"
+              alt="grue"
+            />
+          </div>
+          <p class="information_description">
+            Trouvez votre matériel partout en France
+          </p>
+        </div>
+        <div class="informations">
+          <div class="logo_container">
+            <img
+              class="information_logo"
+              src="./asset/icones/price.svg"
+              alt="price"
+            />
+          </div>
+          <p class="information_description">
+            Profitez de prix justes et transparents
+          </p>
+        </div>
+        <div class="informations">
+          <div class="logo_container">
+            <img
+              class="information_logo"
+              src="./asset/icones/service.svg"
+              alt="service-client"
+            />
+          </div>
+          <p class="information_description">
+            Découvrez notre service client expert et réactif
+          </p>
+        </div>
+        <div class="vehicles_container">
+          <img
+            class="vehicles_big"
+            src="./asset/vehicles_big.jpg"
+            alt="vehicles_big"
+          />
+          <img
+            class="logo_assurance_desktop"
+            src="./asset/SMABTP.png"
+            alt="SMABTP"
+          />
+        </div>
+        <img class="arrow" src="./asset/icones/arrow.png" alt="arrow" />
+      </section>
+      <section class="form">
+        <div class="form_title">
+          <h2><span>Bienvenue</span> chez Tracktor</h2>
+          <h3>Inscription en quelques secondes</h3>
+        </div>
+        <form>
+          <div class="input-name-container">
+            <div class="form-group firstname">
+              <input
+                type="text"
+                class="form-control first-name"
+                placeholder="Prénom"
+              />
+            </div>
+            <div class="form-group name">
+              <input type="text" class="form-control name" placeholder="Nom" />
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control email "
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="form-group ">
+            <input
+              type="tel"
+              class="form-control number"
+              placeholder="Téléphone"
+            />
+          </div>
+          <div class="form-group siren">
+            <input
+              type="text"
+              class="form-control siren-input"
+              placeholder="N°SIREN (9 chiffres)"
+            />
+            <small class="form-text text-muted"
+              >Trouvez rapidement
+              <a class="siren_link">votre siren ici</a></small
+            >
+          </div>
+          <div class="form-group password">
+            <input
+              type="password"
+              class="form-control password-input"
+              placeholder="Mot de passe"
+            />
+            <small class="form-text text-muted"
+              >Votre mot de passe doit contenir 8 caractères minimum</small
+            >
+          </div>
+          <div class="reduction_container">
+            <button type="submit" class="button_reduction">
+              BTP BANQUE -50€ Offert
+            </button>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >J'accepte les Conditions Générales d'Utilisation de la plateforme
+              <span class="checkbox_span">Tracktor</span> et son partenaire
+              <span class="checkbox_span">Mangopay</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-warning btn-block">
+            S'INSCRIRE
+          </button>
+        </form>
+      </section>
+    </section>
+    <section class="vehicles">
+      <img class="vehicles_image" src="./asset/vehicles.jpg" alt="vehicles" />
+      <img
+        class="logo_assurance_mobile"
+        src="./asset/SMABTP.png"
+        alt="SMABTP"
+      />
+    </section>
+  </body>
+</html>
